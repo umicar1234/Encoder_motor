@@ -4,7 +4,7 @@ import serial
 import time
 
 # Define serial port and baudrate
-SERIAL_PORT = '/dev/ttyACM1'  # Change this to match your Arduino's serial port
+SERIAL_PORT = '/dev/ttyACM0'  # Change this to match your Arduino's serial port
 BAUDRATE = 57600
 
 # Create serial connection
